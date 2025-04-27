@@ -1,0 +1,6 @@
+module.exports = {
+  TOKEN_EXPIRATION: '3h',
+  //PASSWORD_RESET_EXPIRATION: '15m',
+  FREE_PLAN_LIMIT: 5,
+  PRO_PLAN_LIMIT: 30,
+};
