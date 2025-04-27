@@ -16,4 +16,5 @@ app.use('/auth', authRouter);
 app.use('/desc', descRouter);
 app.use('/user', userRouter);
 
-module.exports = app;
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
