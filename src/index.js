@@ -4,6 +4,7 @@ const descRouter = require('../routes/desc');
 const userRouter = require('../routes/user');
 const cors = require('cors');
 const app = express();
+const db = require('../database/db');
 
 app.use(cors({
   origin: 'https://denchal.github.io',
