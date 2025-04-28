@@ -1,21 +1,35 @@
-# OpisMaker Backend
+# Opis AI - Backend
 
-Backend system for OpisMaker application providing core API services and business logic.
+Backend API for Opis AI — an AI-powered product description generator.  
+Built with Node.js, Express, MongoDB, and JWT authentication. Supports daily usage limits based on user subscription plans.
+
+> 🖥️ [Live Frontend Demo](https://denchal.github.io)
+
+---
 
 ## Features
 
-- RESTful API endpoints
-- JWT-based authentication
-- Database integration
-- Data validation
-- Error handling
+- **User authentication** with JWT (sign up / login)
+- **Plan-based quotas** (daily limits based on user's subscription: free / pro / unlimited)
+- **Product description generation** (using AI models)
+- **Description history** saved in MongoDB
+- **Secure password hashing** with bcrypt
+- **Error handling** and input validation
+- **Environment-based configuration** (.env)
+- **RESTful API design** with clean separation of routes
 
-## Technologies
+---
 
-- **Framework**: [Node.js](https://nodejs.org/) + [Express](https://expressjs.com/)
-- **Database**: [MongoDB](https://www.mongodb.com/)
-- **Authentication**: [JSON Web Tokens](https://jwt.io/)
-- **Environment**: [dotenv](https://github.com/motdotla/dotenv)
+## Tech Stack
+
+- Node.js
+- Express
+- MongoDB + Mongoose
+- JWT (JSON Web Tokens)
+- bcrypt
+- dotenv
+
+---
 
 ## Project Structure
 
